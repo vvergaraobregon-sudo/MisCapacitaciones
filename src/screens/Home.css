@@ -1,0 +1,69 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.home-header {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-logo {
+  width: 120px;
+}
+
+.home-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-user span {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.home-user button {
+  padding: 8px 12px;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home-main {
+  padding: 40px;
+}
+
+.home-main h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.capacitaciones-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.capacitaciones-table th,
+.capacitaciones-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.capacitaciones-table th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+  color: #333;
+}

@@ -1,0 +1,22 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para dispositivos móviles */
+  .container {
+    padding: 10px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Estilos para pantallas grandes */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
